@@ -9,7 +9,7 @@
 
 #include <string>
 #include <vector>
-// #include "Agendamento.hpp" // Descomentaremos isto quando criarmos a classe Agendamento
+#include "Agendamento.hpp" // Descomentaremos isto quando criarmos a classe Agendamento
 
 /**
  * @class Agenda
@@ -23,7 +23,7 @@ private:
     int _capacidadeMaxima;           /**< Número máximo de pets atendidos ao mesmo tempo */
     std::string _horarioAbertura;    /**< Horário de abertura do Pet Shop (ex: "08:00") */
     std::string _horarioFechamento;  /**< Horário de fecho do Pet Shop (ex: "18:00") */
-    // std::vector<Agendamento> _listaAgendamentos; /**< Lista de marcações do dia */
+    std::vector<Agendamento> _listaAgendamentos; /**< Lista de marcações do dia */
 
 public:
     /**
